@@ -20,7 +20,7 @@ body {
   padding: 0;
   height: 450px;
   border-radius: 10px;
-  box-shadow: 0 20px 50px black;
+  box-shadow: 0 20px 50px green;
 }
 
 .container form {
@@ -69,7 +69,7 @@ body {
   padding-left: 4px;
 }
 .container form input:focus {
-  border: 1px solid red;
+  border: 1px solid green;
 }
 .container form a {
   text-align: center;
@@ -88,6 +88,7 @@ body {
   outline: none;
   border-radius: 12px;
   padding: 10px 0;
+  margin-bottom: 20px;
 }
 
 .content {
@@ -112,6 +113,9 @@ body {
   }
   .container form {
     width: 100%;
+  }
+  .container .btn1 {
+    margin-bottom: 40px;
   }
   .container .content {
     width: 100%;
